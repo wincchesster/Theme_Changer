@@ -13,10 +13,10 @@ if (activeTheme === null) {
     document.body.classList.toggle('light')
 } else {
     document.body.classList.toggle(activeTheme)
-};
+}
 
 
 if (activeTheme === 'dark') {
     checkbox.checked = true;
-};
+}
 
